@@ -8,7 +8,7 @@ import (
 // CGO
 
 /*
-#include <whisper.h>
+#include "../../whisper.h"
 */
 import "C"
 

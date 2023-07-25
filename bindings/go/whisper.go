@@ -11,7 +11,7 @@ import (
 /*
 #cgo LDFLAGS: -lwhisper -lm -lstdc++
 #cgo darwin LDFLAGS: -framework Accelerate
-#include <whisper.h>
+#include "../../whisper.h"
 #include <stdlib.h>
 
 extern void callNewSegment(void* user_data, int new);
